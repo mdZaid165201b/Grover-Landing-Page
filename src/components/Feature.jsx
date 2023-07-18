@@ -26,7 +26,7 @@ const Feature = () => {
     },
   ];
   return (
-    <main className="w-screen flex justify-center items-center h-full my-10 bg-[#FEF5F5]">
+    <main className="w-screen flex justify-center items-center h-full my-32 sm:my-10 bg-[#FEF5F5]">
       <div className="w-[80%] flex h-[700px] ">
         <div className="w-full  mt-14">
           <div className="flex flex-col justify-center items-center">
@@ -39,7 +39,7 @@ const Feature = () => {
               </h1>
             </div>
           </div>
-          <div className="w-full flex justify-center my-7">
+          <div className="w-full flex  my-7">
             <div className="w-[80%] h-full flex flex-col sm:flex-row gap-5 justify-between p-5 ">
               {featureData.map((current, index) => (
                 <FeatureCard icon={current.icon} title={current.title} desc={current.desc} middle={current.middle} key={index}/>
