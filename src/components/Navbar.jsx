@@ -6,11 +6,11 @@ import { BsBasket2Fill } from "react-icons/bs";
 const Navbar = () => {
   return (
     <nav className="w-screen flex justify-center h-[100px] ">
-      <div className="w-[80%] flex justify-between items-center">
+      <div className="w-full mx-7   sm:w-[80%] flex justify-between items-center">
         <div className="flex justify-center items-center cursor-pointer">
           <img src={Logo} alt="logo" />
         </div>
-        <div className="w-[700px] h-[70px] flex justify-between items-center">
+        <div className="hidden w-[700px] h-[70px] sm:flex justify-between items-center">
           <ul className="w-full flex justify-between items-center font-semibold px-24">
             <li className="drop-shadow-2xl shadow-black shadow-2xl">
               <a
@@ -46,7 +46,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="w-[300px] h-[70px] flex justify-center items-center">
+        <div className="w-[300px] h-[70px] flex justify-center items-center ml-4">
           <div className="flex items-center">
             <IoIosSearch className="text-[#8B8B8B] absolute ml-3" />
             <input

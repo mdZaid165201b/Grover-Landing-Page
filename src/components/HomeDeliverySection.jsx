@@ -2,8 +2,8 @@ import React from "react";
 import Chef from "../assets/Chef.png"
 const HomeDeliverySection = () => {
   return (
-    <main className="w-screen flex justify-center items-center h-full my-10 ">
-      <div className="w-[80%] flex h-[700px] ">
+    <main className="w-screen flex justify-center items-center h-[800px] my-5 ">
+      <div className="w-[80%] flex ">
         
         <div className="w-[55%] flex justify-center my-20">
           <div className="flex flex-col justify-start mt-20 mx-10">
@@ -24,8 +24,8 @@ const HomeDeliverySection = () => {
           </div>
         </div>
         <div className="w-[45%] flex justify-center items-center px-20">
-          <div className="w-full h-full flex justify-end">
-            <img src={Chef} alt="Men Chef" />
+          <div className="flex justify-end">
+            <img src={Chef} alt="Men Chef"/>
           </div>
         </div>
       </div>

@@ -3,9 +3,9 @@ import GirlWithOrange from "../assets/Girl with Orange.png";
 const Favorites = () => {
   return (
     <main className="w-screen flex justify-center items-center h-full my-10 ">
-      <div className="w-[80%] flex h-[700px] ">
+      <div className="w-[80%] flex">
         <div className="w-[55%] flex justify-center items-center px-20">
-          <div className="w-full h-full flex justify-end">
+          <div className="flex justify-end">
             <img src={GirlWithOrange} alt="Girl with Orange Image" />
           </div>
         </div>
