@@ -39,8 +39,8 @@ const Feature = () => {
               </h1>
             </div>
           </div>
-          <div className="w-full flex justify-center my-7">
-            <div className="w-[80%] h-full flex flex-col sm:flex-row gap-5 justify-between p-5 ">
+          <div className="w-full flex flex-wrap justify-center my-7">
+            <div className="w-[80%] h-full flex flex-col sm:flex-row gap-5 justify-center p-5 ">
               {featureData.map((current, index) => (
                 <FeatureCard icon={current.icon} title={current.title} desc={current.desc} middle={current.middle} key={index}/>
               ))}

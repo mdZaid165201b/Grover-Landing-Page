@@ -4,7 +4,7 @@ import { BsFillPlayFill } from "react-icons/bs";
 import PersonImage from "../assets/Header Image.png"
 const Hero = () => {
   return (
-    <main className="w-screen flex justify-center items-center h-full my-10">
+    <main className="w-screen flex justify-center items-center h-[700px] border my-10">
       <div className="w-[80%] flex h-[700px]">
         <div className="w-[55%] h-fullflex flex-col p-10">
           <div className="bg-[#FDECEC] w-fit px-4 py-2 rounded-full font-poppins flex justify-center items-center">
