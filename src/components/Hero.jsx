@@ -4,8 +4,8 @@ import { BsFillPlayFill } from "react-icons/bs";
 import PersonImage from "../assets/Header Image.png"
 const Hero = () => {
   return (
-    <main className="w-screen flex justify-center items-center h-[800px]">
-      <div className="w-full sm:w-[80%] flex flex-col sm:flex-row ">
+    <main className="w-screen flex justify-center items-center h-[600px]">
+      <div className="w-full sm:w-[80%] h-full flex flex-col sm:flex-row ">
         <div className="w-[55%] h-full  flex flex-col p-6 sm:p-10">
           <div className="bg-[#FDECEC] w-[200px] sm:w-fit px-4 py-2 sm:py-2 rounded-full font-poppins flex justify-center items-center">
             <h1 className="text-[#F55556] text-sm sm:text-lg ">More than Faster</h1>
